@@ -15,4 +15,5 @@ git diff --staged lub --cached  -- Pokazuje zawartość pliku w poczekalni któr
 git rm --cached [nazwa_pliku] -- Usuwanie pliku z poczekalni.
 rm [nazwa_pliku] -- usunięcie pliku z dysku.
 git log -- Wyświetla zmiany dokonane w katalogu (historia commit);
-git log -p -- Wyświetla zmiany i co zostało zmienione.
+git log -p -- Wyświetla zmiany i co zostało zmienione.Opcja [-2] ile zmian
+              wyświetlić.
