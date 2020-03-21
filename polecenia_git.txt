@@ -1,0 +1,14 @@
+//Komendy GIT
+git init -- Inicjalizacja respozytorium git-a
+git add [nazwa_pliku] lub git add . -- Dodawanie jednego lub wielu plików do staging area.
+                                      Należy wpisywać po każdej modyfikacji pliku.
+git commit -m -- Zatwerdzenie zmian wraz wiadomoością.
+git commit -a -m -- Zatwiedzenie zmian wszystkich plików opcja -a
+git status -- Wyświetla zmiany w aktualnym (HEAD) nagłówku które
+              muszą być zapisane (commit).Wyświetla zmiany w katalogu
+              które nie są jeszcze śledzone.Następnie zmiany które
+              musza zostać dodane  [git -add] zanim zostaną zatwierdzone [git commit].
+git diff -- Bez argumentów pokazuje co zmieniłeś ale nie wysłałeś do poczekalni [staging area].
+            Jeżeli wszystkie twoje zmiany są już w poczekalni wynik będzie pusty.
+git diff --staged lub --cached  -- Pokazuje zawartość pliku w poczekalni która trafi do respozytorium
+                                  z najbliższym zatwirdzeniem.
