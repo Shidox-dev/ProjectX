@@ -11,6 +11,8 @@ git status -- Wyświetla zmiany w aktualnym (HEAD) nagłówku które
 git diff -- Bez argumentów pokazuje co zmieniłeś ale nie wysłałeś do poczekalni [staging area].
             Jeżeli wszystkie twoje zmiany są już w poczekalni wynik będzie pusty.
 git diff --staged lub --cached  -- Pokazuje zawartość pliku w poczekalni która trafi do respozytorium
-                                  z najbliższym zatwirdzeniem.
+                                  z najbliższym zatwierdzeniem.
 git rm --cached [nazwa_pliku] -- Usuwanie pliku z poczekalni.
-rm [nazwa_pliku] -- usunięcie pliku z dysku.                                  
+rm [nazwa_pliku] -- usunięcie pliku z dysku.
+git log -- Wyświetla zmiany dokonane w katalogu (historia commit);
+git log -p -- Wyświetla zmiany i co zostało zmienione.
