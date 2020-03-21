@@ -18,5 +18,6 @@ git log -- Wyświetla zmiany dokonane w katalogu (historia commit);
 git log -p -- Wyświetla zmiany i co zostało zmienione.Opcja [-2] ile zmian
               wyświetlić.
 git log --stat  -- Wyświetli pod każdym wpisem histori liste zmodyfikowanych
-                  plików , liczbę zmienionych plików oraz liczbę dodanych 
+                  plików , liczbę zmienionych plików oraz liczbę dodanych
                   lub usuniętych lini.
+git log -p -1 --stat -- Połączenie kilku komend.                  
