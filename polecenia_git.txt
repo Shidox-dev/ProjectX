@@ -20,4 +20,6 @@ git log -p -- Wyświetla zmiany i co zostało zmienione.Opcja [-2] ile zmian
 git log --stat  -- Wyświetli pod każdym wpisem histori liste zmodyfikowanych
                   plików , liczbę zmienionych plików oraz liczbę dodanych
                   lub usuniętych lini.
-git log -p -1 --stat -- Połączenie kilku komend.                  
+git log -p -1 --stat -- Połączenie kilku komend.
+git reset --hard HEAD^ -- Usuwanie ostatniego zapisu.
+git reset --hard HEAD~number -- Usuwanie ostanich kilu zapisów.                  
