@@ -26,3 +26,12 @@ git reset --hard HEAD~number -- Usuwanie ostanich kilu zapisów.
 //Zdalne respozytoria
 git clone [adres url] -- Kopiuje cały projekt do wybranego folderu.
 git remote -v --- Wyświetli zdalne respozytornia.
+//Praca nad projektem zespuł.
+    1. git clone --Pobieram respozytoria.
+    2.git remote add [nazwa_respozytorium] [url]
+    3. modyfikuje wybrane plki.
+    4.git add . --Dodaje pliki do poczekalni.
+    5. git commit -m ---Zapisuje.
+    6.git push [nazwa_respozytorium(git remote -v)] [nazwa branch]--publikuje na zdalnym respozytorium.
+    7.cd do projektu.
+    8.
