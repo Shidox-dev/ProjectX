@@ -37,4 +37,3 @@ git remote -v --- Wyświetli zdalne respozytornia.
     8.git remote add [nazwa repo] [url] --dodanie nowego respozytorium.
     9. git fetch [nazwa repo]
     10. git pull [nazwa repo(projectX)] [nazwa branch]
-//koniec
