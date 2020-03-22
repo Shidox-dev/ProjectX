@@ -2,3 +2,7 @@ nowa funkcja jquery
 function costam(){
 console.log('Hello!!');
 }
+function Fullname(name,surname){
+let fullName = name +" "+surname;
+console.log("Welcome "+fullName);
+}
