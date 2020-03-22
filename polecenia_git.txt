@@ -25,4 +25,4 @@ git reset --hard HEAD^ -- Usuwanie ostatniego zapisu(commit).
 git reset --hard HEAD~number -- Usuwanie ostanich kilu zapisów.
 //Zdalne respozytoria
 git clone [adres url] -- Kopiuje cały projekt do wybranego folderu.
-git remote -v ---Wyświetli zdalne respozytornia.
+git remote -v --- Wyświetli zdalne respozytornia.
