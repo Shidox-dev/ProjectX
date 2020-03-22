@@ -1,1 +1,4 @@
 nowa funkcja jquery
+function costam(){
+console.log('Hello!!');
+}
