@@ -1,1 +1,1 @@
-test git--dodanie nowej części niezależnie od testing
+nowa funkcja jquery
