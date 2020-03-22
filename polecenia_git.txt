@@ -34,4 +34,6 @@ git remote -v --- Wyświetli zdalne respozytornia.
     5. git commit -m ---Zapisuje.
     6.git push [nazwa_respozytorium(git remote -v)] [nazwa branch]--publikuje na zdalnym respozytorium.
     7.cd do projektu.
-    8.
+    8.git remote add [nazwa repo] [url] --dodanie nowego respozytorium.
+    9. git fetch [nazwa repo]
+    10. git pull [nazwa repo(projectX)] [nazwa branch]
