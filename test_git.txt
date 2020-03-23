@@ -10,3 +10,8 @@ function addNumbers(number1,number2){
 ler score = number1 + number2;
 consloe.log("Twój wynik to: "+score);
 }
+function changeText(text,id){
+let element  = document.getElementById(id);
+element.innerHTML = text;
+return element;
+}

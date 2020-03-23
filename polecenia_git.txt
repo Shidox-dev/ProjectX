@@ -38,4 +38,7 @@ git remote -v --- Wyświetli zdalne respozytornia.
     9. git fetch [nazwa repo]
     10. git pull [nazwa repo(projectX)] [nazwa branch]
     11.git push [nazwa repo(projectX)] [branch name(master)]
-//dodam tu komętarz
+//Scalanie i wysyłanie na server
+git branch [name]--tworzy nową gałąż
+git checkout [branch] -- Przełącza na gałąż
+git merge [branch] -- scalanie
