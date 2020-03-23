@@ -46,3 +46,5 @@ git branch -d [name_branch] -- usuwanie gałęzi.
 //Zmiana wiadomoości
 git rebase-i HEAD~[number]-- Wyświetli ostatnie commit-s
 zmien pick na reword.
+//Zarządzanie gałęziami
+git fetch origin --Aktualizuje zdalne respozytoria
