@@ -42,4 +42,5 @@ git remote -v --- Wyświetli zdalne respozytornia.
 git branch [name]--tworzy nową gałąż
 git checkout [branch] -- Przełącza na gałąż
 git merge [branch] -- scalanie
+git branch -d [name_branch] -- usuwanie gałęzi.
 //koniec
