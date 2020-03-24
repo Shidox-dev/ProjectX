@@ -61,3 +61,4 @@ git remote rm [remote name] -- Usówa zdalne respozytorium.
 git pull [remote name] [branch name] -- Aktualizuje aktualne respozytorium
                                         dodaje pliki i foldery.
 git push [remote name] --delete [remote_branch] -- usówa zdalnie branch.
+//chyba koniec
