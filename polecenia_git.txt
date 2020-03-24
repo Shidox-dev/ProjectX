@@ -50,3 +50,4 @@ zmien pick na reword.
 git fetch origin --Aktualizuje zdalne respozytoria
 //zobaczymy jak to działa
 //zapisanie na serverze orgin
+//jak podglądnąć fetch??
