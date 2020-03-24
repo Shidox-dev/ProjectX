@@ -15,3 +15,8 @@ let element  = document.getElementById(id);
 element.innerHTML = text;
 return element;
 }
+function login(usename,password){
+if(username != '' && password != ''){
+console.log("Witaj "+userame);
+}
+}
