@@ -51,7 +51,7 @@ git fetch origin -- Aktualizuje zdalne respozytoria nie pobiera jednak plików
                     tworzy tymczasową gałąż.
 git fetch projectX/NewFunctins -- Pobiera wersje z gałęzi NewFunctins.
 git checkout --track [name remoterepo]/[name_branch] -- Tworzy nową gałąz
-                            i przechodzi do niej.  
+                            i przechodzi do niej.
 git diff [nazwa gałęzi] --  Pokazuje jakie dane trafią po scaleniu[merge] lub
                             po uruchomieniu git pull.
 git remote show [remote source] -- Pokazuje która gałąż zostanie wypchnięta
@@ -60,3 +60,4 @@ git remote rename [remote name][new remote name] --Zmiana nazwy zdalnego respozy
 git remote rm [remote name] -- Usówa zdalne respozytorium.
 git pull [remote name] [branch name] -- Aktualizuje aktualne respozytorium
                                         dodaje pliki i foldery.
+git push [remote name] --delete [remote_branch] -- usówa zdalnie branch.
