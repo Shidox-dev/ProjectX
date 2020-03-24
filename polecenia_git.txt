@@ -47,7 +47,13 @@ git branch -d [name_branch] -- usuwanie gałęzi.
 git rebase-i HEAD~[number]-- Wyświetli ostatnie commit-s
 zmien pick na reword.
 //Zarządzanie gałęziami
-git fetch origin --Aktualizuje zdalne respozytoria
-//zobaczymy jak to działa
-//zapisanie na serverze orgin
-//jak podglądnąć fetch??
+git fetch origin -- Aktualizuje zdalne respozytoria nie pobiera jednak plików
+                    tworzy tymczasową gałąż.
+git diff [nazwa gałęzi] --  Pokazuje jakie dane trafią po scaleniu[merge] lub
+                            po uruchomieniu git pull.
+git remote show [remote source] -- Pokazuje która gałąż zostanie wypchnięta
+                                  po uruchomieniu push na poszczegulnych gałęziach.
+git remote rename [remote name][new remote name] --Zmiana nazwy zdalnego respozytiorium.
+git remote rm [remote name] -- Usówa zdalne respozytorium.
+git pull [remote name] [branch name] -- Aktualizuje aktualne respozytorium
+                                        dodaje pliki i foldery.
